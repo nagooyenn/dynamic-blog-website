@@ -48,3 +48,11 @@ if (postId) {
         }
     };
 }
+
+document.getElementById('delete-button').onclick = function() {
+    const posts = JSON.parse(localStorage.getItem('posts')) || [];
+    posts.splice(postId, 1);
+    localStorage.setItem('posts', JSON.stringify(posts));
+    alert('Post deleted!');
+    window.location.href = 'index.html';
+};
