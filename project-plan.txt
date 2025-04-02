@@ -1,0 +1,14 @@
+Project Plan for Dynamic Blog Website
+
+1. Pages:
+   - index.html (Homepage: List all blog posts)
+   - new-post.html (Create new blog post)
+   - post.html (View/Edit/Delete blog post)
+   - styles.css (Styling)
+   - script.js (Handles CRUD operations with Local Storage)
+
+2. Features:
+   - Create, read, update, and delete (CRUD) blog posts
+   - Store posts in local storage
+   - Responsive design with CSS
+   - Git and GitHub for version control
