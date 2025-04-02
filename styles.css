@@ -16,3 +16,37 @@ h1, ul {
         padding: 0;
     }
 }
+
+:root {
+    --background-color: #f8f8f8;
+    --header-color: #333;
+    --button-color: #007bff;
+    --button-hover-color: #0056b3;
+    --padding-small: 10px;
+    --padding-medium: 20px;
+}
+
+.header {
+    background-color: var(--background-color);
+    padding: var(--padding-medium);
+}
+
+.header-title {
+    color: var(--header-color);
+    font-size: 1.5rem; /* Use rem for better accessibility */
+    margin: 0; /* Reset margin for consistent styling */
+}
+
+.button {
+    background-color: var(--button-color);
+    color: white;
+    padding: var(--padding-small) var(--padding-medium);
+    border: none;
+    border-radius: 4px; /* Add some rounding for better aesthetics */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: var(--button-hover-color); /* Change color on hover */
+}
